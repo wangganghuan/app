@@ -9,7 +9,7 @@
       </div>
 
       <div class="get_back" @click="getBack">
-        <img src="../../img/返回2.png" alt />
+        <img src="../../img/getBack2.png" alt />
       </div>
     </div>
   </div>
@@ -21,7 +21,7 @@ export default {
       default: true
     },
     mypageimg: {
-      default: require("../../img/个人中心/邀请好友.png")
+      default: require("../../img/PersonalCenter/inviteFriends.png")
     },
     Mname: {
       default: "邀请好友"

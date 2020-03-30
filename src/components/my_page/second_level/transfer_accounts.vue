@@ -3,7 +3,7 @@
   <div id="discover_index">
     <van-nav-bar title="我的转账">
       <div slot="left" class="discover_index_return" @click="discoverReturn">
-        <img src="../../../img/返回.png" alt />
+        <img src="../../../img/getBack.png" alt />
       </div>
       <div slot="right" class="discover_index_head" @click="Mrecord">记录</div>
     </van-nav-bar>

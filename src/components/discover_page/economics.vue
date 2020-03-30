@@ -11,7 +11,7 @@
           </div>
           <div class="economics_content_text_watch">
             <div class="economics_content_text_glasses">
-              <img src="../../img/眼睛.png" alt />
+              <img src="../../img/eye.png" alt />
             </div>
             <span>{{item.glasses}}</span>
           </div>
@@ -35,42 +35,42 @@ export default {
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像3.png")
+            img: require("../../img/image3.png")
           },
           {
             title: "巴菲特将内含比特币和波场币的三星手机交给慈善机构",
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像 1.png")
+            img: require("../../img/image1.png")
           },
           {
             title: "巴菲特：我没有比特币，也永远不会持有加密货币",
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像 2.png")
+            img: require("../../img/image2.png")
           },
           {
             title: "以太坊上的比特币，能冲破DeFi的天花板吗？",
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像3.png")
+            img: require("../../img/image3.png")
           },
           {
             title: "巴菲特将内含比特币和波场币的三星手机交给慈善机构",
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像 1.png")
+            img: require("../../img/image1.png")
           },
           {
             title: "巴菲特：我没有比特币，也永远不会持有加密货币",
             name: "比特币",
             date: "18分钟前",
             glasses: 240,
-            img: require("../../img/图像 2.png")
+            img: require("../../img/image2.png")
           }
         ];
       }

@@ -4,7 +4,7 @@
     <securityCenterhead title="关于我们" :discoverHead="false"></securityCenterhead>
     <div>
       <div class="app_img">
-        <img src="../../../img/登陆log.png" alt />
+        <img src="../../../img/log.png" alt />
       </div>
       <div class="about_us_text">
         受疫情蔓延影响，昨日全球股市和石油价格大幅下跌，经历了一个“黑色星期一”。

@@ -3,7 +3,7 @@
   <div class="conversion">
     <van-nav-bar title="闪兑">
       <div slot="left" class="discover_index_return" @click="discoverReturn">
-        <img src="../../../img/返回.png" alt />
+        <img src="../../../img/getBack.png" alt />
       </div>
       <div slot="right" class="discover_index_head" @click="Mrecord">记录</div>
     </van-nav-bar>
@@ -16,7 +16,7 @@
             </van-cell-group>
           </div>
           <div class="conversion_body_img">
-            <img src="../../../img/个人中心/兑换2x.png" alt />
+            <img src="../../../img/PersonalCenter/conversion.png" alt />
           </div>
           <div class="conversion_body_input1">
             <van-cell-group :border="false">

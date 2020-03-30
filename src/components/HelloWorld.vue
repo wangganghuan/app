@@ -9,7 +9,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/首页3.png'): require('../img/首页2.png')"
+              :src="props.active ? require('../img/homePage2.png'): require('../img/homePage.png')"
               style=" height: 0.5488rem;width: 0.466667rem;"
             />
           </van-tabbar-item>
@@ -18,7 +18,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/跟单交易3.png'): require('../img/跟单交易2.png')"
+              :src="props.active ? require('../img/documentary2.png'): require('../img/documentary.png')"
               style="height: 0.4996rem;width: 0.498133rem;"
             />
           </van-tabbar-item>
@@ -27,7 +27,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/发现3.png'): require('../img/发现 2.png')"
+              :src="props.active ? require('../img/discover2.png'): require('../img/discover.png')"
               style=" height: 0.506667rem;width: 0.506667rem;"
             />
           </van-tabbar-item>
@@ -36,7 +36,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/资产3.png'): require('../img/资产2.png')"
+              :src="props.active ? require('../img/property2.png'): require('../img/property.png')"
               style=" height: 0.529733rem; width: 0.474rem;"
             />
           </van-tabbar-item>
@@ -45,7 +45,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/otc交易3.png'): require('../img/otc交易2.png')"
+              :src="props.active ? require('../img/otc3.png'): require('../img/otc2.png')"
               style=" height: 0.506667rem;width: 0.506667rem;"
             />
           </van-tabbar-item>
@@ -55,7 +55,7 @@
             <img
               slot="icon"
               slot-scope="props"
-              :src="props.active ? require('../img/我的2.png'): require('../img/我的.png')"
+              :src="props.active ? require('../img/my2.png'): require('../img/my.png')"
               style=" height: 0.506667rem;width: 0.506667rem;"
             />
           </van-tabbar-item>

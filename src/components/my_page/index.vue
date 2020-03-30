@@ -4,7 +4,7 @@
     <div class="mypage_head">
       <div class="df mypage_head_head">
         <div class="mypage_head_portrait">
-          <img src="../../img/头像.png" alt />
+          <img src="../../img/headPortrait.png" alt />
         </div>
         <div class="mypage_head_name">
           <div class="mypage_name">ChengDong123</div>
@@ -12,14 +12,14 @@
         </div>
         <div class="mypage_head_compile">
           <div class="mypage_compile">
-            <img src="../../img/个人中心/编辑.png" alt />
+            <img src="../../img/PersonalCenter/compile.png" alt />
           </div>
         </div>
       </div>
       <div class="mypage_head_body">
         <div class="mypage_body_left">
           <div class="mypage_body_team">
-            <img src="../../img/个人中心/团队总人数.png" alt />
+            <img src="../../img/PersonalCenter/TotalTeamSize.png" alt />
           </div>
           <div class="mypage_body_content">
             <span class="howmany">128</span>
@@ -28,7 +28,7 @@
         </div>
         <div class="mypage_body_rigth">
           <div class="mypage_body_team">
-            <img src="../../img/个人中心/我的直推.png" alt />
+            <img src="../../img/PersonalCenter/MyStraightOn.png" alt />
           </div>
           <div class="mypage_body_content">
             <span class="howmany">24</span>
@@ -41,13 +41,13 @@
       <div class="mypage_body_invite">
         <div class="df">
           <div class="mypage_body_img">
-            <img src="../../img/个人中心/邀请好友.png" alt />
+            <img src="../../img/PersonalCenter/inviteFriends.png" alt />
           </div>
           <span class="mypage_body_friend">邀请好友</span>
         </div>
 
         <div class="get_back" @click="Minvite">
-          <img src="../../img/返回2.png" alt />
+          <img src="../../img/getBack2.png" alt />
         </div>
       </div>
       <mycommin Mname="在线客服" :mypageimg="mypageimg" :Mrouter="service"></mycommin>
@@ -59,7 +59,6 @@
       <mycommin Mname="关于我们" :mypageimg="aboutUs" :Mrouter="about_us"></mycommin>
 
       <mycommin Mname="系统设置" :mypageimg="settings" :Mrouter="system_settings"></mycommin>
-      <mycommin Mname="safeWithdrawing" :mypageimg="withdrawing"></mycommin>
     </div>
   </div>
 </template>
@@ -71,22 +70,21 @@ export default {
   },
   data() {
     return {
-      mypageimg: require("../../img/个人中心/在线客服.png"),
+      mypageimg: require("../../img/PersonalCenter/onlineCustomerService.png"),
       service: "/service",
-      securityCenter: require("../../img/个人中心/safeWithdrawing.png"),
-      helpCenter: require("../../img/个人中心/帮助中心.png"),
+      securityCenter: require("../../img/PersonalCenter/safeWithdrawing.png"),
+      helpCenter: require("../../img/PersonalCenter/helpCenter.png"),
       help_center: "/helpcenter",
-      autonym: require("../../img/个人中心/认证.png"),
+      autonym: require("../../img/PersonalCenter/authentication.png"),
       authentication: "/authentication",
-      flicker: require("../../img/个人中心/闪兑.png"),
+      flicker: require("../../img/PersonalCenter/flicker.png"),
       conversion: "/conversion",
-      transferAccounts: require("../../img/个人中心/我的转账.png"),
+      transferAccounts: require("../../img/PersonalCenter/MyMoneyTransfer.png"),
       transfer_accounts: "/transferaccounts",
-      aboutUs: require("../../img/个人中心/关于我们.png"),
+      aboutUs: require("../../img/PersonalCenter/AboutUs.png"),
       about_us: "/aboutus",
-      settings: require("../../img/个人中心/设置2x.png"),
-      system_settings: "/systemsettings",
-      withdrawing: require("../../img/个人中心/safeWithdrawing.png")
+      settings: require("../../img/PersonalCenter/set.png"),
+      system_settings: "/systemsettings"
     };
   },
   methods: {
@@ -99,7 +97,7 @@ export default {
 <style lang="scss" scoped>
 .mypage_head {
   height: 5.093333rem;
-  background-image: url("../../img/个人中心/背景色x.png");
+  background-image: url("../../img/PersonalCenter/backgroundColor.png");
 
   background-repeat: no-repeat; /*不平埔*/
 

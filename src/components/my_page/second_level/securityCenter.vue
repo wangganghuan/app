@@ -5,13 +5,13 @@
     <div class="security_body">
       <span class="security_body_text">修改交易密码</span>
       <div class="get_back" @click="getBack">
-        <img src="../../../img/返回2.png" alt />
+        <img src="../../../img/getBack2.png" alt />
       </div>
     </div>
     <div class="security_body">
       <span class="security_body_text">修改登录密码</span>
       <div class="get_back" @click="getBacklogin">
-        <img src="../../../img/返回2.png" alt />
+        <img src="../../../img/getBack2.png" alt />
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
   <div id="app">
     <div class="app_img">
       <div class="app_log">
-        <img src="../img/登陆log.png" alt />
+        <img src="../img/log.png" alt />
       </div>
     </div>
     <div class="app_login">
