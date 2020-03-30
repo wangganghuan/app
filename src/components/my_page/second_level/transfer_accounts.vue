@@ -66,8 +66,7 @@ export default {
     },
     Mrecord() {
       this.$router.push("/record");
-    },
-    
+    }
   },
   watch: {
     accountNumber(val, val2) {
