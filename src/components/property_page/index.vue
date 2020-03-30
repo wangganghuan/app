@@ -5,7 +5,7 @@
       <!-- 图片 -->
       <div class="df property_head_head" @click="getBack">
         <div class="property_get_back">
-          <img src="../../img/资产_slices/返回22x.png" alt />
+          <img src="../../img/slices/getBack3.png" alt />
         </div>
         <div class="property_property">总资产</div>
       </div>
@@ -62,7 +62,7 @@ export default {
 .property {
   .property_head {
     height: 4.333333rem;
-    background: url("../../img/资产_slices/背景图片.png") no-repeat;
+    background: url("../../img/slices/bgc.png") no-repeat;
     background-repeat: no-repeat; /*不平埔*/
     background-position: 50% 50%; /*居中*/
     background-size: 100%; /*背景图片大小*/
@@ -149,20 +149,20 @@ export default {
       line-height: 0.2rem;
     }
     div:nth-child(1) {
-      background: url("../../img/资产_slices/跟随钱包.png") no-repeat;
+      background: url("../../img/slices/FollowThePurse.png") no-repeat;
       background-repeat: no-repeat; /*不平埔*/
       background-position: 50% 50%; /*居中*/
       background-size: 100%; /*背景图片大小*/
     }
     div:nth-child(2) {
-      background: url("../../img/资产_slices/动态钱包.png") no-repeat;
+      background: url("../../img/slices/DynamicWallet.png") no-repeat;
       background-repeat: no-repeat; /*不平埔*/
       background-position: 50% 50%; /*居中*/
       background-size: 100%; /*背景图片大小*/
     }
 
     div:nth-child(3) {
-      background: url("../../img/资产_slices/团队总业绩.png") no-repeat;
+      background: url("../../img/slices/TotalTeamPerformance.png") no-repeat;
       background-repeat: no-repeat; /*不平埔*/
       background-position: 50% 50%; /*居中*/
       background-size: 100%; /*背景图片大小*/

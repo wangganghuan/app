@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="head_portrait">
-        <img src="../../img/头像.png" alt />
+        <img src="../../img/headPortrait.png" alt />
       </div>
     </div>
     <div class="Otcdeal_title">
@@ -31,7 +31,7 @@
 
               <span class="Otcdeal_content_name">吴亦凡</span>
               <div class="Otcdeal_content_vip">
-                <img src="../../img/会员管理.png" alt />
+                <img src="../../img/memberManagement.png" alt />
               </div>
             </div>
             <div class="Otcdeal_content_hede_right">
@@ -79,7 +79,7 @@ export default {
       otcdealData: [
         {
           id: 1,
-          img: require("../../img/头像.png"),
+          img: require("../../img/headPortrait.png"),
           name: "吴亦凡",
           Mnumber: 214,
           percentage: "75.98%",
@@ -87,14 +87,14 @@ export default {
           quota: "限额 100-3000000 CNY",
           quantity: "数量 29.817803 USDT",
           purchase: [
-            require("../../img/微信支付22x.png"),
-            require("../../img/支付宝2x.png"),
-            require("../../img/银行卡2x.png")
+            require("../../img/WeChatPay.png"),
+            require("../../img/alipay.png"),
+            require("../../img/bankCard.png")
           ]
         },
         {
           id: 2,
-          img: require("../../img/头像.png"),
+          img: require("../../img/headPortrait.png"),
           name: "吴亦凡",
           Mnumber: 214,
           percentage: "75.98%",
@@ -102,14 +102,14 @@ export default {
           quota: "限额 100-3000000 CNY",
           quantity: "数量 29.817803 USDT",
           purchase: [
-            require("../../img/微信支付22x.png"),
-            require("../../img/支付宝2x.png"),
-            require("../../img/银行卡2x.png")
+            require("../../img/WeChatPay.png"),
+            require("../../img/alipay.png"),
+            require("../../img/bankCard.png")
           ]
         },
         {
           id: 3,
-          img: require("../../img/头像.png"),
+          img: require("../../img/headPortrait.png"),
           name: "吴亦凡",
           Mnumber: 214,
           percentage: "75.98%",
@@ -117,9 +117,9 @@ export default {
           quota: "限额 100-3000000 CNY",
           quantity: "数量 29.817803 USDT",
           purchase: [
-            require("../../img/微信支付22x.png"),
-            require("../../img/支付宝2x.png"),
-            require("../../img/银行卡2x.png")
+            require("../../img/WeChatPay.png"),
+            require("../../img/alipay.png"),
+            require("../../img/bankCard.png")
           ]
         }
       ]

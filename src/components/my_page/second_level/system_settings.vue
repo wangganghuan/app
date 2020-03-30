@@ -7,7 +7,7 @@
       <div class="df">
         English
         <div class="language_img">
-          <img src="../../../img/返回2.png" alt />
+          <img src="../../../img/getBack2.png" alt />
         </div>
       </div>
     </div>

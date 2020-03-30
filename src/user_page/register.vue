@@ -3,7 +3,7 @@
   <div class="register">
     <div class="getback">
       <div class="getback_img" @click="getback">
-        <img src="../img/返回.png" alt />
+        <img src="../img/getBack.png" alt />
       </div>
     </div>
     <div class="register_body">

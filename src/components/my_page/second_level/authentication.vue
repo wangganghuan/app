@@ -20,10 +20,10 @@
     </div>
     <div class="authentication_img">
       <div class="authentication_img1">
-        <img src="../../../img/个人中心/实名认证/身份证正面.png" alt />
+        <img src="../../../img/PersonalCenter/realNameAuthentication/identityCard.png" alt />
       </div>
       <div class="authentication_img2">
-        <img src="../../../img/个人中心/实名认证/身份证反面.png" alt />
+        <img src="../../../img/PersonalCenter/realNameAuthentication/identityCard2.png" alt />
       </div>
     </div>
     <div class="authentication_buttom">提交</div>

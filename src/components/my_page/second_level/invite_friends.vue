@@ -15,7 +15,7 @@
       <div class="wire"></div>
       <div class="scan">发送给好友扫一扫，立即加入</div>
       <div class="QRCode">
-        <img src="../../../img/个人中心/QRCode.png" alt />
+        <img src="../../../img/PersonalCenter/QRCode.png" alt />
       </div>
     </div>
   </div>
@@ -30,7 +30,7 @@ export default {
 .invitebody {
   overflow: hidden;
   height: 15.906667rem;
-  background-image: url("../../../img/个人中心/邀请好友背景图片.png");
+  background-image: url("../../../img/PersonalCenter/inviteFriendsbgc.png");
   background-repeat: no-repeat; /*不平埔*/
 
   background-position: 65% 39%;

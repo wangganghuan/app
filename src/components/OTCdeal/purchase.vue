@@ -7,7 +7,7 @@
       <div>
         <div class="df">
           <div class="purchase_portrait">
-            <img src="../../img/头像.png" alt />
+            <img src="../../img/headPortrait.png" alt />
           </div>
           <span class="purchase_name">吴亦凡</span>
         </div>
@@ -20,13 +20,13 @@
         </div>
         <ul class="purchase_ul">
           <li>
-            <img src="../../img/微信支付22x.png" alt />
+            <img src="../../img/WeChatPay.png" alt />
           </li>
           <li>
-            <img src="../../img/支付宝2x.png" alt />
+            <img src="../../img/alipay.png" alt />
           </li>
           <li>
-            <img src="../../img/银行卡2x.png" alt />
+            <img src="../../img/bankCard.png" alt />
           </li>
         </ul>
       </div>
@@ -64,7 +64,7 @@
         <span class="purchase_body_ways_pan">请选择一种交易方式</span>
         <div @click="Mdeal">
           <div class="purchase_body_ways_img">
-            <img src="../../img/返回2.png" alt />
+            <img src="../../img/getBack2.png" alt />
           </div>
         </div>
       </div>

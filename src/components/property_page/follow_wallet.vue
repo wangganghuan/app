@@ -4,7 +4,7 @@
     <div class="follow_wallet_bgc">
       <div class="df property_head_head" @click="getBack">
         <div class="property_get_back">
-          <img src="../../img/资产_slices/返回22x.png" alt />
+          <img src="../../img/slices/getBack3.png" alt />
         </div>
         <div class="property_property">跟随钱包</div>
         <div class="property_record">跟随记录</div>
@@ -34,7 +34,7 @@ export default {
 .follow_wallet_bgc {
   padding: 0.293333rem 0.4rem 0;
   height: 4.666667rem;
-  background-image: url("../../img/资产_slices/跟随钱包背景图片.png");
+  background-image: url("../../img/slices/FollowThePursebgc.png");
 
   background-repeat: no-repeat; /*不平埔*/
 

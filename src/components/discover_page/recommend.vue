@@ -26,12 +26,12 @@
       <div class="recommendContent_bottom">
         <span @click="Mcomment(item.id)">{{item.date}}</span>
         <div class="recommendContent_bottom_comment">
-          <img src="../../img/评论.png" alt />
+          <img src="../../img/comment.png" alt />
         </div>
         <span>{{item.commentTime}}</span>
         <div class="recommendContent_bottom_like" @click="Mlike(item.id)">
-          <img src="../../img/点赞.png" v-show="!item.like" alt />
-          <img src="../../img/以点赞.png" alt v-show="item.like" />
+          <img src="../../img/like.png" v-show="!item.like" alt />
+          <img src="../../img/accordingLike.png" alt v-show="item.like" />
         </div>
         <span>{{item.likeTime}}</span>
       </div>
@@ -56,7 +56,7 @@ export default {
           {
             id: 1,
             title: "吴亦凡CC",
-            img: require("../../img/头像.png"),
+            img: require("../../img/headPortrait.png"),
             text:
               "白天，亚太股市遭遇重创，韩国综合指数3.87％创逾 16 个月最大跌幅；昨夜美股欧股同样遭遇恐慌性跌：美股三大股指（纳斯达克指数、道琼斯数标普 500 数收跌超。",
             date: "02-21",
@@ -69,7 +69,7 @@ export default {
           {
             id: 2,
             title: "吴亦凡CC",
-            img: require("../../img/头像2.png"),
+            img: require("../../img/headPortrait2.png"),
             text:
               "白天，亚太股市遭遇重创，韩国综合指数3.87％创逾 16 个月最大跌幅；昨夜美股欧股同样遭遇恐慌性跌：美股三大股指（纳斯达克指数、道琼斯数标普 500 数收跌超。",
             date: "02-21",
@@ -82,7 +82,7 @@ export default {
           {
             id: 3,
             title: "吴亦凡CC",
-            img: require("../../img/头像.png"),
+            img: require("../../img/headPortrait.png"),
             text:
               "白天，亚太股市遭遇重创，韩国综合指数3.87％创逾 16 个月最大跌幅；昨夜美股欧股同样遭遇恐慌性跌：美股三大股指（纳斯达克指数、道琼斯数标普 500 数收跌超。",
             date: "02-21",
